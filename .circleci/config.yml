@@ -12,7 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: ./aws-emr-cost-calculator cluster --cluster_id=j-IORDXURJP0HF	
+          command: ./manage.py test
           name: Test
 
 workflows:
